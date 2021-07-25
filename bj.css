@@ -1,0 +1,152 @@
+a {
+    color: #f2b457;
+}
+.mainField {
+    height: 69vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #163d04;
+    padding-top: 40px;
+    align-items: center;
+    font-family: "Ruslan Display";
+    color: #f2b457;
+    border: 3px solid #f2b457;
+    border-radius: 14px;
+}
+
+.cardsField {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.cardsField__hand {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+}
+.cardsField__hand_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: 4px double black;
+    height: 152px;
+    width: fit-content;
+    align-items: center;
+    padding-left: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #163d04;
+    border: 3px solid #f2b457;
+    border-radius: 14px;
+    height: 4vh;
+    color: #f2b457;
+}
+.technology {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    align-items: center;
+    justify-content: space-around;
+}
+.tecnology__html5Logo {
+    background-image: url("images/html5.png");
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.technology__cssLogo {
+    background-image: url("images/css.png");
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.technology__phpLogo {
+    background-image: url("images/php.png");
+    width: 72px;
+    height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #163d04;
+    border: 3px solid #f2b457;
+    border-radius: 14px;
+}
+.header__logo {
+    background-image: url("images/main_blackjack-10.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 155px;
+}
+.header__bankBetDisplay {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    font-family: "Ruslan Display";
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: #f2b457;
+}
+
+.card {
+    width: 90px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.bankForm {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    font-family: "Ruslan Display";
+    border: 3px solid black;
+    border-radius: 13px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+    color: #f2b457;
+}
+
+.playerMove {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: fit-content;
+    height: fit-content;
+}
+
+.playerButton {
+    font-family: "Ruslan Display";
+    border-radius: 10px;
+    background-color: #f2b457;
+    margin: 5px 10px 5px 10px;
+}
+.playerButton_move {
+    width: 200px;
+    height: 35px;
+}
+.playerButton_bankBet {
+    width: 45px;
+    height: 20px;
+}
