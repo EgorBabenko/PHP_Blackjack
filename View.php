@@ -131,7 +131,7 @@
         <div class="technology__phpLogo"></div>
         <p>were used</p>
     </div>
-    <a href="https://github.com/">ИСХОДНИК НА GITHUB</a>
+    <a href="https://github.com/EgorBabenko/PHP_Blackjack">ИСХОДНИК НА GITHUB</a>
 </footer>
 </body>
 </html>
